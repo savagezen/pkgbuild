@@ -1,0 +1,14 @@
+LXDM Theme Name - Leopard Arch LXDM
+Author - grandtheftjiujitsu @ GitHub
+
+Wallpaper - https://bbs.archlinux.org/viewtopic.php?pid=1171577
+
+Time in top bar from ArchSimple Theme (Thayer Williams & Allan McRae) 
+http://allanmcrae.com/2011/08/simple-arch-linux-theme-for-lxdm/
+
+Base Code from ArchLinux-Top Theme (Jakup Steiner) 
+https://aur.archlinux.org/packages/archlinux-lxdm-theme-top/
+
+The ARCHLINUX name and logo are recognized trademarks.
+See http://www.archlinux.org/ for acceptable use and restrictions.
+

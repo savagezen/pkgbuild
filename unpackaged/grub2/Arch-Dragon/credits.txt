@@ -1,0 +1,17 @@
+﻿###########
+# Credits #
+###########
+     This is a modified version of "Antergos-Bluez" by Dustin Falgout (dustinfalgout@gmail.com).  Antergos-Bluez is based on the "Archlinux" theme by American_Jesus.  Credit for the instllation script also belongs (in part) to both the aformentioned parties.  To the best of my knowledge American_Jesus created the script but I beleive changes were also made by Falgout.  My contributions to that file extend only to appropriately renaming the theme.  Selection Icons and Menu borders / images were modified from the "Beefy" theme by LegendaryBibo.
+
+Antergos-Bluez:
+http://gnome-look.org/content/show.php/GRUB2+Theme%3A+Antergos-Bluez?content=159204
+
+Archlinux:
+https://bbs.archlinux.org/viewtopic.php?id=141631
+
+Beefy:
+http://gnome-look.org/content/show.php/GS%2BBeefy+Miracle+GRUB+and+Plymouth+theme?content=154495
+
+Wallpaper:
+http://www.wallpaperbeautiful.com/thumbnails/detail/20121112/linux%20arch%20linux%201600x900%20wallpaper_wallpaperbeautiful_35.jpg
+
