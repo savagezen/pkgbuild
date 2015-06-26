@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+if ! screen -r -D cmus > /dev/null ; then
+	screen -S cmus /usr/bin/cmus "$@"
+fi

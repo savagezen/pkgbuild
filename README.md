@@ -8,6 +8,11 @@ Contributions to the Arch User Repository
 ##### Actively Maintained Packages
 * phoronix-test-suite-git [ [pakcage directory](https://github.com/grandtheftjiujitsu/pkgbuild/tree/master/phoronix-test-suite) | [upstream](https://github.com/phoronix-test-suite/phoronix-test-suite) ]
 
+##### In Progress
+* rakudobrew
+* cmus-daemon
+* something in perl6
+
 ##### Non Packaged Compilations
 >[Google Drive Screenshot Album](https://drive.google.com/open?id=0B2RH_BSaD6YPY1dZR0x1S2QxZ1U&authuser=0)
 
@@ -25,7 +30,7 @@ Contributions to the Arch User Repository
 * Arch-Dragon
 * Rainy-Arch
 
-Syslinux 
+Syslinux
 * I love the Arch .iso theme so here are links to the [config](https://projects.archlinux.org/archiso.git/tree/configs/releng/syslinux) and [splash image](https://projects.archlinux.org/archiso.git/plain/configs/releng/syslinux/splash.png).
 * Same config as above with a [rainbow-type background](http://www.wallpaperhi.com/Technology/Linux/minimalistic_linux_rainbows_arch_linux_2560x1600_wallpaper_97469)
 * Same config as above with a [pacman inspired background](http://technology.desktopnexus.com/wallpaper/39150/)
