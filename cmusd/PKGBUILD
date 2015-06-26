@@ -1,0 +1,24 @@
+# Maintainer: Austin Haedicke <austin.haedicke@gmail.com>
+
+pkgname=cmusd
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Script and links to run Cmus in detached ('daemon') mode"
+arch=('i686' 'x86_64')
+url="https://github.com/cmus/cmus/wiki/detachable-cmus"
+license=('GPL')
+depends=('cmus' 'screen')
+source=("cmusd.sh")
+md5sums=('SKIP')
+
+package() {
+  chmod +x cmusd.sh
+  echo "Creating ~/bin if it does not exist"
+  mkdir -p ~/bin
+  echo "Copying script to ~/bin"
+  cp cmusd.sh ~/bin
+  echo "Creating link from script to /usr/bin/cmusd"
+  sudo ln ~/bin/cmusd.sh /usr/bin/cmusd	
+  echo "Editing Cmus keybindings"
+  cmus-remote --raw bind -f common d shell screen -d cmus
+}
