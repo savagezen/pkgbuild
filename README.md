@@ -8,9 +8,9 @@ Contributions to the Arch User Repository
 ##### Actively Maintained Packages
 * phoronix-test-suite-git [ [pakcage directory](https://github.com/grandtheftjiujitsu/pkgbuild/tree/master/phoronix-test-suite-git) | [upstream](https://github.com/phoronix-test-suite/phoronix-test-suite) ]
 
-##### Experiments / Playground
+##### Experiments / Just for Fun
+* rakudobrew - 'quick and dirty' implementation of Perl6 on MoarVM [ [offical documentation](https://github.com/tadzik/rakudobrew) | [PKGBUILD](https://raw.githubusercontent.com/grandtheftjiujitsu/pkgbuild/master/rakudobrew/PKGBUILD) ]
 * [cmusd](https://github.com/grandtheftjiujitsu/pkgbuild/tree/master/cmusd) - scripts to run cmus as a daemon (detached from window)
-* rakudobrew
 
 ##### Non Packaged Compilations
 >[Google Drive Screenshot Album](https://drive.google.com/open?id=0B2RH_BSaD6YPY1dZR0x1S2QxZ1U&authuser=0)

@@ -2,6 +2,13 @@
 
 Script to automate the the [officially documented process](https://github.com/grandtheftjiujitsu/pkgbuild/tree/master/cmus-daemon) and create a separate command (cmusd) via link from ~/bin/cmusd.sh to /usr/bin/cmusd.
 
+**NOTE:  As it turns out this project amounted only to an exercise in package building as a one-liner shell alias with tmux accomplishes the same task.  Enter the below alias or for funsies keep reading.**
+
+```sh
+# ~/.zshrc
+alias cmusd="tmux new -s cmus -d cmus"
+```
+
 ### Installation
 
 ```sh
@@ -18,9 +25,5 @@ $ cd github.com/grandtheftjiujitsu/pkgbuild/cmusd
 $ cmusd                     # start daemon
 $ cmus-remote --raw q       # kill daemon
 ```
-
-### Future Plans
-- Maybe package and submit to AUR
-- Possibly expand PKGBUILD to build cmus from source
 
 *[Link to the official cmus repo](https://github.com/cmus/cmus)
