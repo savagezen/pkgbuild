@@ -1,8 +1,0 @@
-[GdmGreeterTheme]
-Encoding=UTF-8
-Greeter=gdm.xml
-Name=Metal Gear Solid Ninja
-Description=Metal Gear Solid's Ninja GDM theme.  Based on Arch Linux Simply Black which is based on the sunergos greeter.
-Author=Original Author - Thayer Williams <thayer@archlinux.org>
-Copyright=Original Copyright - (c) 2007 Thayer Williams. Arch Linux is a recognized trademark.
-Screenshot=screenshot.png

@@ -1,8 +1,0 @@
-[GdmGreeterTheme]
-Encoding=UTF-8
-Greeter=gdm.xml
-Name=ArchArok
-Description=Arch and Amarok themed GDM greeter.
-Author=See credits.txt
-Copyright=See credits.txt
-Screenshot=screenshot.png
