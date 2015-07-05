@@ -11,10 +11,10 @@ url='http://rakudo.org/'
 license=(PerlArtistic)
 depends=('glibc')
 makedepends=('perl')
-provides=('rakudo-star')
-conflicts=('rakudo' 'rakudo-star')
+provides=('rakudo' 'rakudo-moarvm')
+conflicts=('rakudo' 'rakudo-moarvm')
 options=('!makeflags')
-source=(http://rakudo.org/downloads/star/rakudo-star-2015.03.tar.gz)
+source=(http://rakudo.org/downloads/star/$pkgname-$pkgver.tar.gz)
 sha512sums=('SKIP')
 
 prepare() {
@@ -23,11 +23,13 @@ prepare() {
 
 build() {
   cd "$pkgname-$pkgver"
-  tar -xzvf ../"$pkgname-$pkgver".tar.gz
-  perl Configure.pl --backend=moar --gen-moar --gen-nqp
+  perl Configure.pl --gen-moar --gen-nqp --backends=moar
+  make
 }
 
 package() {
+  cd "$pkgname-$pkgver"
+  make DESTDIR="$pkgdir" install
   cp "$srcdir"/"$pkgname-$pkgver"/install/bin/* ~/.rakudostar
-  sudo ln -s ~/.rakudostar/* /usr/bin
+  sudo ln -sf ~/.rakudostar/* /usr/bin/
 }
