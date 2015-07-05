@@ -9,7 +9,7 @@ Contributions to the Arch User Repository
 * phoronix-test-suite-git [ [PKGBUILD](https://raw.githubusercontent.com/grandtheftjiujitsu/pkgbuild/master/phoronix-test-suite-git.PKGBUILD) | [upstream](https://github.com/phoronix-test-suite/phoronix-test-suite) ]
 
 ##### Waiting to be Orphaned / Adopted (7/8/15)
-* cmus-git	[ [PKGBUILD](https://raw.githubusercontent.com/grandtehftjiujitsu/pkgbuild/master/cmus-git.PKGBUILD) | [upstream](https://github.com/cmus/cmus) ]
+* cmus-git	[ [PKGBUILD](https://raw.githubusercontent.com/grandtheftjiujitsu/pkgbuild/master/cmus-git.PKGBUILD) | [upstream](https://github.com/cmus/cmus) ]
 * rakudo-star	[ [PKGBUILD](https://raw.githubusercontent.com/grandtheftjiujitsu/pkgbuild/master/rakudo-star.PKGBUILD) | [upstream](http://rakudo.org/downloads/star/) ]
 
 ##### Non Packaged Compilations [ [Google Drive Screenshot Album](https://drive.google.com/open?id=0B2RH_BSaD6YPY1dZR0x1S2QxZ1U&authuser=0)]
