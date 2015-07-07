@@ -1,4 +1,7 @@
-# Maintainer: Austin Haedicke <austin.haedicke@gmail.com>
+# Maintainer: Austin Haedicke <irc / github: gtbjj>
+# If you find errors or have suggestions please contact me
+# via IRC PM or submit a pull request on github.
+
 # Contributor: Marcin Karpezo <sirmacik at gmail dot com>
 # Contributor: Daenyth <Daenyth+Arch [at] gmail [dot] com>
 
