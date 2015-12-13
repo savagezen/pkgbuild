@@ -12,9 +12,10 @@ I'm new to package maintenance so if you find errors, typos, or have other helpf
 
 ##### Actively Maintained Packages
 
-* [phoronix-test-suite-git](https://github.com/gtbjj/pkgbuild/phoronix-test-suite-git) [ [upstream](https://github.com/phoronix-test-suite/phoronix-test-suite) ]
-* [cmus-git](https://github.com/gtbjj/pkgbuild/cmus-git)	[ [upstream](https://github.com/cmus/cmus) ]
-* [rakudo-star](https://github.com/gtbjj/pkgbuild/rakudo-star)	[ [upstream](http://rakudo.org/downloads/star/) ]
+* 
+[phoronix-test-suite-git](https://github.com/gtbjj/pkgbuild/tree/master/phoronix-test-suite-git) [ [upstream](https://github.com/phoronix-test-suite/phoronix-test-suite) ]
+* [cmus-git](https://github.com/gtbjj/pkgbuild/tree/master/cmus-git)	[ [upstream](https://github.com/cmus/cmus) ]
+* [rakudo-star](https://github.com/gtbjj/pkgbuild/tree/master/rakudo-star)	[ [upstream](http://rakudo.org/downloads/star/) ]
 
 ---
 
