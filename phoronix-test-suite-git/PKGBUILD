@@ -13,7 +13,7 @@ license=('GPL')
 url="http://www.phoronix-test-suite.com/"
 depends=('ruby' 'python')
 makedepends=('git')
-optdepends=('php')
+optdepends=('php''php-gtk')
 provides=('phoronix-test-suite')
 conflicts=('phoronix-test-suite')
 install=$pkgname.install
@@ -26,8 +26,7 @@ pkgver() {
 }
 
 package() {
-    cd ${srcdir}/$_pkgname
+    cd $srcdir/$_pkgname
     mkdir -p ${pkgdir}/usr/bin
-    ./install-sh ${pkgdir}/usr 
+    ./install-sh ${pkgdir}/usr
 }
-
