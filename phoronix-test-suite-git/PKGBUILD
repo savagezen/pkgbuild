@@ -5,7 +5,7 @@
 
 _pkgname=phoronix-test-suite
 pkgname=phoronix-test-suite-git
-pkgver=v6.0.1.136.gfa006e0
+pkgver=v7.0.1.61.ga02d0c8c7
 pkgrel=1
 pkgdesc="The most comprehensive testing and benchmarking platform available for Linux"
 arch=('i686' 'x86_64')
@@ -20,13 +20,9 @@ install=$pkgname.install
 source=("git://github.com/phoronix-test-suite/phoronix-test-suite.git")
 md5sums=('SKIP')
 
-#pkgver() {
-#    cd $_pkgname
-#    git describe --always | sed -e 's|-|.|g'
-#}
 pkgver() {
-  cd "$_pkgname"
-  git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+    cd $_pkgname
+    git describe --always | sed -e 's|-|.|g'
 }
 
 package() {
