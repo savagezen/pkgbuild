@@ -17,7 +17,7 @@ license=(PerlArtistic)
 depends=("nqp>=$pkgver")
 makedepends=('perl>=5.8')
 provides=('rakudo-star' 'rakudo-moarvm')
-conflicts=('rakudo-star' 'rakudo-moarvm')
+conflicts=('rakudo-star' 'rakudo-moarvm' 'rakudo-star-meta')
 source=(http://rakudo.org/downloads/star/$pkgname-$pkgver.tar.gz)
 sha512sums=('a8c2bec7999c20f7e92b02dafb75fcb495ca6605f9d31ffb9568fc8e5ae7925aae9ac47a6245f21d72f98cfe42a98aa5d1e080a559b1a058644b04b503269a9c')
 
