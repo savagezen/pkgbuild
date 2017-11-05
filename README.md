@@ -4,7 +4,7 @@
 
 ---
 
-###### [View Packages in Arch User Repository](https://aur.archlinux.org/packages/?O=0&SeB=m&K=gtbjj&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
+###### [View Packages in Arch User Repository](https://aur.archlinux.org/packages/?O=0&SeB=m&K=savagezen&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
 
 I'm new to package maintenance so if you find errors, typos, or have other helpful suggestions please feel encouraged to fork and make a pull request.
 
