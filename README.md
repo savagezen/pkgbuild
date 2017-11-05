@@ -1,6 +1,6 @@
 # Arch Linux AUR Packages
 
-##### Maintained by gtbjj
+##### Maintained by savagezen
 
 ---
 
@@ -16,6 +16,7 @@ I'm new to package maintenance so if you find errors, typos, or have other helpf
 * [cmus-git](https://github.com/gtbjj/pkgbuild/tree/master/cmus-git) ([upstream](https://github.com/cmus/cmus))
 * [rakudo-star](https://github.com/gtbjj/pkgbuild/tree/master/rakudo-star)	([upstream](http://rakudo.org/downloads/star/))
 * [dnd-tools](https://github.com/gtbjj/pkgbuild/tree/master/dnd-tools) ([upstream](https://github.com/gtbjj/dnd-tools))
+* [star-meta](https://aur.archlinux.org/packages/star-meta/)
 
 ---
 
