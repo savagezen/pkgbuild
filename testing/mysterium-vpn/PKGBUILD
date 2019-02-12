@@ -1,0 +1,37 @@
+# Maintainer: Austin Haedicke <austin.haedicke@gmail.com>
+# GitHub: https://github.com/savagezen/pkgbuild
+# Telegram:  @savagezen / @savagezen_aur
+
+pkgname=mysterium-vpn
+pkgver=0.5.3
+pkgrel=1
+pkgdesc="Mysterium VPN is desktop application to access Mysterium Network - decentralized VPN built on blockchain."
+arch=('any')
+url="https://mysterium.network/"
+depends=('docker''openvpn')
+makedepends=('git')
+optdepends=()
+provides=('mysterium-vpn')
+conflicts=('mysterium-vpn')
+options=()
+install=
+source=(https://github.com/mysteriumnetwork/node/releases/download/"$pkgver"/myst_linux_amd64.tar.gz)
+license=('GPL v3')
+md5sums=('SKIP')
+
+pkgver() {
+  cd "$_gitname"
+  git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
+
+build() {
+	cd "$pkgname-$pkgver"
+	./configure --prefix=/usr
+	make
+}
+
+package() {
+	cd "$pkgname-$pkgver"
+	make DESTDIR="$pkgdir/" install
+}
