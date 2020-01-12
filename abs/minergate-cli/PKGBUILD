@@ -1,16 +1,16 @@
 # Maintainer: Evrea <evrea at cock dot li>
-# Customized by: savagezen
+# Customized by: savagezen <@savagezen on Telegram>
 
 pkgname=minergate-cli
-pkgver=18.04.1.4
-pkgrel=1
+pkgver=1.7
+pkgrel=2
 pkgdesc="Cryptocurrency miner and Mining Pool (console version)"
 arch=("x86_64")
 url="http://www.minergate.com/"
 provides=("minergate-cli")
 license=("custom")
 source=("https://minergate.com/download/xfast-ubuntu-cli")
-sha256sums=('51d35f61080dfca574a5398e103c05e52210e0016295b62de161c64af11e0cda')
+sha256sums=('bff127436b13a455c2022052d67156313163f53a1ee1835c0756d39adf591a77')
 options=(!strip) # Doesn't work without disabling this option
 depends=("ocl-icd") # Minergate comes bundled with its own libraries
 
