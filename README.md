@@ -14,6 +14,7 @@ I'm new to package maintenance so if you find errors, typos, or have other helpf
 * [rakudo-star](https://github.com/gtbjj/pkgbuild/tree/master/rakudo-star)	([upstream](http://rakudo.org/downloads/star/))
 * [star-meta](https://aur.archlinux.org/packages/star-meta/)
 * [syncthing-git](https://github.com/savagezen/pkgbuild/tree/master/syncthing-git) ([upstream](https://github.com/syncthing/syncthing))
+* [zef](https://github.com/savagezen/pkgbuild/tree/master/zef) ([upstream](https://github.com/ugexe/zef))
 
 **[View Packages in Arch User Repository](https://aur.archlinux.org/packages/?O=0&SeB=m&K=savagezen&outdated=&SB=n&SO=a&PP=50&do_Search=Go)**
 
