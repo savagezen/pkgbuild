@@ -74,5 +74,5 @@ package() {
 	for file in $(find . -name '*.7' -print); do
 		install -Dm644 $file "${pkgdir}"/usr/share/man/man7/$file
 	done
-    chmod u+w -R "$GOPATH"
+	chmod u+w -R "$GOPATH"
 }
