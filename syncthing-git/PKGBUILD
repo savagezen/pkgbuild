@@ -25,6 +25,8 @@ prepare() {
 	mkdir -p "${srcdir}/../go"
 	export GOPATH="${srcdir}/../go"
 	export PATH="$PATH:$GOPATH/bin"
+	# fix for broken version
+	chmod u+w -R "$GOPATH"
 	go get -d -v ./...
 }
 
@@ -72,4 +74,5 @@ package() {
 	for file in $(find . -name '*.7' -print); do
 		install -Dm644 $file "${pkgdir}"/usr/share/man/man7/$file
 	done
+    chmod u+w -R "$GOPATH"
 }
