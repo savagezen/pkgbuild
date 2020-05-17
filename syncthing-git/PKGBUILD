@@ -26,8 +26,6 @@ prepare() {
 	mkdir -p "${srcdir}/../go"
 	export GOPATH="${srcdir}/../go"
 	export PATH="$PATH:$GOPATH/bin"
-	# fix for broken version
-	chmod u+w -R "$GOPATH"
 	go get -d -v ./...
 }
 
