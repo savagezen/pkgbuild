@@ -6,17 +6,11 @@
 
 #### AUR Packages
 
-I'm new to package maintenance so if you find errors, typos, or have other helpful suggestions please feel encouraged to fork and make a pull request.  For installation instructions, see the [AUR page on the Arch Wiki](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
+I'm new to package maintenance so if you find errors, typos, or have other helpful suggestions please feel encouraged to fork and make a pull request.
 
-* [cmus-git](https://github.com/savagezen/pkgbuild/tree/master/cmus-git) ([upstream](https://github.com/cmus/cmus))
-* [dnd-tools](https://github.com/savagezen/pkgbuild/tree/master/dnd-tools) ([upstream](https://github.com/gtbjj/dnd-tools))
-* [phoronix-test-suite-git](https://github.com/savagezen/pkgbuild/tree/master/phoronix-test-suite-git) ([upstream](https://github.com/phoronix-test-suite/phoronix-test-suite))
-* [rakudo-star](https://github.com/gtbjj/pkgbuild/tree/master/rakudo-star)	([upstream](http://rakudo.org/downloads/star/))
-* [star-meta](https://aur.archlinux.org/packages/star-meta/)
-* [syncthing-git](https://github.com/savagezen/pkgbuild/tree/master/syncthing-git) ([upstream](https://github.com/syncthing/syncthing))
-* [zef](https://github.com/savagezen/pkgbuild/tree/master/zef) ([upstream](https://github.com/ugexe/zef))
+For installation instructions, see the [AUR page on the Arch Wiki](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
 
-**[View Packages in Arch User Repository](https://aur.archlinux.org/packages/?O=0&SeB=m&K=savagezen&outdated=&SB=n&SO=a&PP=50&do_Search=Go)**
+**[View Packages in Arch User Repository](https://aur.archlinux.org/packages/?K=savagezen&SeB=m)**
 
 ---
 
@@ -33,9 +27,9 @@ Themes for [Syslinux](https://wiki.archlinux.org/index.php/Syslinux), [GRUB2](ht
 
 [Google Drive Screenshot Album](https://drive.google.com/open?id=0B2RH_BSaD6YPY1dZR0x1S2QxZ1U&authuser=0)
 
-- [**GDM**](https://github.com/gtbjj/pkgbuild/tree/master/unpackaged/gdm) (Gnome Display Manager - "Old")
-- [**LXDM**](https://github.com/gtbjj/pkgbuild/tree/master/unpackaged/lxdm) (Light X Display Manager)
-- [**GRUB2**](https://github.com/gtbjj/pkgbuild/tree/master/unpackaged/grub2)
+- [**GDM**](https://github.com/savagezen/pkgbuild/tree/gdm) (Gnome Display Manager - "Old")
+- [**LXDM**](https://github.com/savagezen/pkgbuild/tree/lxdm) (Light X Display Manager)
+- [**GRUB2**](https://github.com/savagezen/pkgbuild/tree/grub2)
 - Syslinux
   - I love the Arch .iso theme so here are links to the [config](https://projects.archlinux.org/archiso.git/tree/configs/releng/syslinux) and [splash image](https://projects.archlinux.org/archiso.git/plain/configs/releng/syslinux/splash.png).
   - Same config looks good with a [rainbow-type](http://www.wallpaperhi.com/Technology/Linux/minimalistic_linux_rainbows_arch_linux_2560x1600_wallpaper_97469) or [pacman inspired](http://technology.desktopnexus.com/wallpaper/39150/) background.
