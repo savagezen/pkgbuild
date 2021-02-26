@@ -6,9 +6,7 @@
 
 #### AUR Packages
 
-I'm new to package maintenance so if you find errors, typos, or have other helpful suggestions please feel encouraged to fork and make a pull request.
-
-For installation instructions, see the [AUR page on the Arch Wiki](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
+I'm new to package maintenance so if you find errors, typos, or have other helpful suggestions please feel encouraged to fork and make a pull request.  For installation instructions, see the [AUR page on the Arch Wiki](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
 
 **[View Packages in Arch User Repository](https://aur.archlinux.org/packages/?K=savagezen&SeB=m)**
 
@@ -17,8 +15,6 @@ For installation instructions, see the [AUR page on the Arch Wiki](https://wiki.
 #### Modified (Unofficial) Packages
 
 These packages are made with the [Arch Build System](https://wiki.archlinux.org/index.php/Arch_Build_System) in a manner similar to [modifying kernels with ABS](https://wiki.archlinux.org/index.php/Kernels/Arch_Build_System).  They are modified for my personal use and not submitted to the AUR.
-
-- [linux-hardened](https://github.com/gtbjj/pkgbuild/tree/master/abs/linux-hardened)
 
 ---
 #### Non-Packaged Compilations
